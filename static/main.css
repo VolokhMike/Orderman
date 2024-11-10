@@ -1,0 +1,67 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align:  center;
+}
+
+header {
+    background-color: #ff6347;
+    color: #ffffff;
+    padding: 20px;
+}
+h1b{
+    margin: 0;
+}
+
+
+.content {
+    margin: 20px;
+}
+.pizzeria-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu_button {
+    display: inline-block;
+    margin-top: 20px;
+    radding: 10px 20px;
+    color: white;
+    background-color: #ff6347;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-button:hover {
+    background-color: #e55342;
+}
+
+.menu-table table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+.menu-table th, .menu-table td{
+    padding: 15px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    word-wrap: break-word
+}
+
+
+.menu-table th{
+    background-color: #ff6347;
+    color: white;
+    font_weight: bold;
+}
+
+
+.menu-table tr:hover {
+    background-color: #e8e8e8 ;
+}

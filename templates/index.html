@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orderman Pizzeia - Home</title>
+    <link rel="stylesheet" href="{{ url_for ('static', filename ='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to pizzeria Orderman</h1>
+    </header>
+    <div class="content">
+        <img src="{{ url_for('static', filename='style.css' ) }}">
+        <a href="{{ url_for('menu')}}" class="menu-button">Menu</a>
+    </div>
+</body>
+</html>

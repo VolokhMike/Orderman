@@ -11,23 +11,19 @@
     </header>
     <div class="menu-table">
         <table>
-            <thead>
-            <tr>
-                <th> pizza name </th>
-                <th> pizza description</th>
-                <th> pizza price</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% for pizza in pizzas%}
-            <tr>
-                <td> {{ pizza.name}}</td>
-                <td>{{ pizza.description }} </td>
-                <td>{{ pizza.price  }}</td>
-            </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+    <tr>
+      <th>Назва</th>
+      <th>Інгредієнти</th>
+      <th>Ціна</th>
+    </tr>
+    {% for pizza in pizzas %}
+      <tr>
+        <td>{{ pizza[0] }}</td>
+        <td>{{ pizza[1] }}</td>
+        <td>{{ pizza[2] }} грн</td>
+      </tr>
+    {% endfor %}
+</table>
     </div>
 
 </body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/menu_style.css') }}">
+  <link rel="icon" href="../static/photo/oderman.jpg">
+  <title>Menu</title>
+</head>
+<body>
+<table>
+    <tr>
+      <th>ID</th>
+      <th>Назва</th>
+      <th>Інгредієнти</th>
+      <th>Ціна</th>
+    </tr>
+    {% for pizza in pizzas %}
+      <tr>
+        <td>{{ pizza[0] }}</td>
+        <td>{{ pizza[1] }}</td>
+        <td>{{ pizza[2] }}</td>
+        <td>{{ pizza[3] }} грн</td>
+      </tr>
+    {% endfor %}
+</table>
+<div class="button-container">
+  <form action="/add_pizza/" method="GET">
+    <button type="submit" class="my-button">Додати піцу</button>
+  </form>
+</div>
+
+</body>
+</html>

@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0249a4-7919-40a0-82ae-27481fbe3875" name="Changes" comment="Ура я тут чуть жопу не порвал">
+    <list default="true" id="ec0249a4-7919-40a0-82ae-27481fbe3875" name="Changes" comment="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня">
+      <change afterPath="$PROJECT_DIR$/poll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_pizza.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +23,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -45,10 +54,16 @@
     "Python.app2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Rebasing master",
+    "last_opened_file_path": "C:/Users/Владелец/PycharmProjects/HTMLhomework",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Владелец\PycharmProjects\HTMLhomework" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +88,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731243747993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня">
+      <option name="closed" value="true" />
+      <created>1731354264060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731354264060</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня">
+      <option name="closed" value="true" />
+      <created>1731354412909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731354412909</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ура я тут чуть жопу не порвал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ура я тут чуть жопу не порвал" />
+    <MESSAGE value="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня" />
   </component>
 </project>

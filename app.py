@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request, url_for, flash, redirect, abort
 import requests
 import sqlite3
-
 from connection import get_db_connection, create_table
+from poll import poll_data
+
+filename = "data.txt"
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "q"
@@ -79,6 +81,22 @@ def login_page():
     return redirect(url_for("menu_page"))
 
 
+@app.get("/poll/")
+def poll_page():
+    return render_template("poll.html", poll_data=poll_data)
+
+
+@app.post("/poll/")
+def poll_submit():
+    answers = {
+        'question1': request.form.get('question1'),
+        'question2': request.form.get('question2'),
+        'question3': request.form.get('question3')
+    }
+    print("Полученные ответы:", answers)  # для отладки
+    return redirect(url_for("menu_page"))
+
+
 @app.get("/admin")
 def admin_page():
     pizzas = get_all_pizzas()
@@ -142,4 +160,4 @@ def pizza_delete(pizza_id):
 
 
 if __name__ == '__main__':
-    app.run(port=6060, debug=True)
+    app.run(port=9090, debug=True)

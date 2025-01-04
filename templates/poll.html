@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Опрос</title>
+</head>
+<body>
+    <h1>Опрос</h1>
+    <form method="post">
+        <div>
+            <h2>{{ poll_data.question1 }}</h2>
+            {% for option in poll_data.fields1 %}
+                <input type="radio" name="question1" value="{{ option }}" id="q1_{{ option }}">
+                <label for="q1_{{ option }}">{{ option }}</label><br>
+            {% endfor %}
+        </div>
+        
+        <div>
+            <h2>{{ poll_data.question2 }}</h2>
+            {% for option in poll_data.fields2 %}
+                <input type="radio" name="question2" value="{{ option }}" id="q2_{{ option }}">
+                <label for="q2_{{ option }}">{{ option }}</label><br>
+            {% endfor %}
+        </div>
+        
+        <div>
+            <h2>{{ poll_data.question3 }}</h2>
+            {% for option in poll_data.fields3 %}
+                <input type="radio" name="question3" value="{{ option }}" id="q3_{{ option }}">
+                <label for="q3_{{ option }}">{{ option }}</label><br>
+            {% endfor %}
+        </div>
+        
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

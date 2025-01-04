@@ -20,7 +20,8 @@
         <td>{{ pizza[0] }}</td>
         <td>{{ pizza[1] }}</td>
         <td>{{ pizza[2] }}</td>
-        <td>{{ pizza[3] }} грн</td>
+        <td>{{ pizza[3] }} грн <a href="{{url_for('get_edit', pizza_id=pizza['id']) }}">
+          <span class="btn btn-warning">Edit</span></a></td>
       </tr>
     {% endfor %}
 </table>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/edit.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='photo/oderman.jpg') }}">
+    <title>Edit</title>
+</head>
+<body>
+    <form method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" value="{{ request.form['name'] or pizza['name'] }}">
+    </div>
+    <div class="form-group">
+        <label for="ingredients">Ingredients</label>
+        <input type="text" id="ingredients" name="ingredients" placeholder="Ingredients" value="{{ request.form['ingredients'] or pizza['ingredients'] }}">
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="text" id="price" name="price" placeholder="Price"  value="{{ request.form['price'] or pizza['price'] }}">
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    </form>
+    <hr>
+</body>
+</html>
+<form action="{{url_for('pizza_delete', pizza_id=pizza['id']) }}" method="post">
+  <input type="submit" value="Delete Pizza" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure delete this post?')">
+</form>

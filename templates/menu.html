@@ -12,6 +12,7 @@
     <div class="menu-table">
         <table>
     <tr>
+      <th>ID</th>
       <th>Назва</th>
       <th>Інгредієнти</th>
       <th>Ціна</th>
@@ -20,14 +21,15 @@
       <tr>
         <td>{{ pizza[0] }}</td>
         <td>{{ pizza[1] }}</td>
-        <td>{{ pizza[2] }} грн</td>
+        <td>{{ pizza[2] }}</td>
+        <td>{{ pizza[3] }} грн</td>
       </tr>
     {% endfor %}
 </table>
     </div>
-    <div class="button-container">
+<div class="button-container">
     <a href="http://127.0.0.1:6060" class="my-button">Back to login</a>
 </div>
-
 </body>
 </html>
+

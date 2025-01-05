@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0249a4-7919-40a0-82ae-27481fbe3875" name="Changes" comment="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня">
-      <change afterPath="$PROJECT_DIR$/poll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
+    <list default="true" id="ec0249a4-7919-40a0-82ae-27481fbe3875" name="Changes" comment="я буду учить JAVA в поте лица">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_pizza.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_pizza.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +15,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -47,18 +44,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "Python.app2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Rebasing master",
-    "last_opened_file_path": "C:/Users/Владелец/PycharmProjects/HTMLhomework",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing Orderman2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владелец/PycharmProjects/HTMLhomework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Владелец\PycharmProjects\HTMLhomework" />
@@ -104,7 +101,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731354412909</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="я буду учить JAVA в поте лица">
+      <option name="closed" value="true" />
+      <created>1734278241617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734278241617</updated>
+    </task>
+    <task id="LOCAL-00005" summary="я буду учить JAVA в поте лица">
+      <option name="closed" value="true" />
+      <created>1736014572433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736014572433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +134,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ура я тут чуть жопу не порвал" />
     <MESSAGE value="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ура я тут чуть жопу не порвал  абоба сигма пусть замуж выходит за меня" />
+    <MESSAGE value="я выграю пари" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="я буду учить JAVA в поте лица" />
+    <option name="LAST_COMMIT_MESSAGE" value="я буду учить JAVA в поте лица" />
   </component>
 </project>

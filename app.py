@@ -93,7 +93,7 @@ def poll_submit():
         'question2': request.form.get('question2'),
         'question3': request.form.get('question3')
     }
-    print("Полученные ответы:", answers)  # для отладки
+    print("Полученные ответы:", answers)
     return redirect(url_for("menu_page"))
 
 

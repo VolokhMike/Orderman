@@ -3,23 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Добавить пиццу</title>
-    <style>
-        .button-container {
-            margin-top: 20px;
-        }
-        .poll-button {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
     <h1>Добавить пиццу</h1>
-    
-    <!-- Форма добавления пиццы -->
+
     <form method="post">
         <label for="name">Название:</label><br>
         <input type="text" name="name" id="name" required><br>
@@ -33,14 +20,12 @@
         <input type="submit" value="Добавить пиццу">
     </form>
 
-    <!-- Кнопка для перехода к опросу -->
     <div class="button-container">
         <a href="{{ url_for('poll_page') }}">
             <button class="poll-button" type="button">Перейти к опросу</button>
         </a>
     </div>
 
-    <!-- Кнопка возврата на главную -->
     <div class="button-container">
         <a href="{{ url_for('index') }}">
             <button type="button">Вернуться на главную</button>

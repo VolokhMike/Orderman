@@ -1,1 +1,1 @@
-I am sigma and i learn JS and python
+I am python developer and I learn Angular

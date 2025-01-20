@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2> Get form </h2>
+<form action="/ice/" method="POST">
+    {{form.otziv.label}}
+    {{form.otziv}}
+    <p>
+        {{form.note.label}}
+        {{form.note}}
+    <p>
+        {{form.plus.label}}
+        {{form.plus}}
+        {{form.submit}}
+</form>
+<div class="button-container">
+        <a href="{{ url_for('index') }}">
+            <button type="button">Вернуться на главную</button>
+        </a>
+    </div>
+</body>
+</html>

@@ -1,9 +1,11 @@
+import flask
 from flask import Flask, render_template, request, url_for, flash, redirect, abort
 import requests
 import sqlite3
 from connection import get_db_connection, create_table
 from poll import poll_data
-
+from flask_wtf import FlaskForm
+from wtforms import SelectField, PasswordField, EmailField, SubmitField, SelectMultipleField, RadioField
 filename = "data.txt"
 
 app = Flask(__name__)
@@ -157,6 +159,28 @@ def pizza_delete(pizza_id):
     connection.commit()
     connection.close()
     return redirect(url_for("menu_page"))
+
+
+class IcecreamForm(FlaskForm):
+    otziv = SelectField("Отзыв")
+    note = SelectMultipleField("Оценка")
+    plus = RadioField("Дополнения")
+    submit = SubmitField("Оставить отзыв")
+
+
+@app.get("/ice/")
+def get_ice():
+    ice_form = IcecreamForm()
+    ice_form.otziv.choices = [('very good', 'very good'), ('good', 'good'), ('badly', 'badly')]
+    ice_form.note.choices = [('5', '5'), ('4', '4'), ('3', '3'), ('2', '2'), ('1', '1')]
+    ice_form.plus.choices = [('middle', 'middle')]
+    return render_template("otziv.html", form=ice_form)
+
+
+@app.post("/ice/")
+def post_ice():
+    otziv = flask.request.form.get("Оценка")
+    return otziv
 
 
 if __name__ == '__main__':

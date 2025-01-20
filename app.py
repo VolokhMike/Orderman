@@ -165,7 +165,7 @@ class IcecreamForm(FlaskForm):
     otziv = SelectField("Отзыв")
     note = SelectMultipleField("Оценка")
     plus = RadioField("Дополнения")
-    submit = SubmitField("Оставить отзыв")
+
 
 
 @app.get("/ice/")

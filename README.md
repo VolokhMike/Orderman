@@ -1,1 +1,1 @@
-I am python developer and I learn Angular
+I am python developer
